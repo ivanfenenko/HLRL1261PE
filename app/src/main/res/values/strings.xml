@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">HLRL1261PE</string>
+
+    <string name="root_url">http://private-anon-f53411cbf0-test16231.apiary-mock.com</string>
+
+    <string name="dialog_title_delete_user">Are you sure?</string>
+    <string name="dialog_message_delete_user">You\'re going to delete this user</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+
+    <string name="message_user_deleted">User deleted</string>
+    <string name="message_user_not_deleted">User can\'t be deleted</string>
+    <string name="message_user_not_loaded">User can\'t be loaded</string>
+
+    <string name="btn_delete_user">Delete user</string>
+
+</resources>

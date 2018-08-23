@@ -1,0 +1,68 @@
+ext.deps = [
+
+        'plugin'     : [
+                'kotlin': "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin_plugin",
+        ],
+
+        'support'    : [
+                'appCompat': "com.android.support:appcompat-v7:$versions.support_library",
+                'design'   : "com.android.support:design:$versions.support_library",
+        ],
+
+        'ui'         : [
+                'glide'        : "com.github.bumptech.glide:glide:$versions.glide",
+                'glideCompiler': "com.github.bumptech.glide:compiler:$versions.glide",
+        ],
+
+        'arch'       : [
+                'lifecycleExtensions': "android.arch.lifecycle:extensions:$versions.arch",
+        ],
+
+        'network'    : [
+                'retrofit'      : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+                'retrofitGson'  : "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+                'retrofitRxJava': "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit",
+        ],
+
+        'rx'         : [
+                'rxjava'   : "io.reactivex.rxjava2:rxjava:$versions.rxjava",
+                'rxandroid': "io.reactivex.rxjava2:rxandroid:$versions.rxandroid",
+        ],
+
+        'di'         : [
+                'dagger'                : "com.google.dagger:dagger:$versions.dagger",
+                'daggerCompiler'        : "com.google.dagger:dagger-compiler:$versions.dagger",
+                'daggerAndroid'         : "com.google.dagger:dagger-android-support:$versions.dagger",
+                'daggerAndroidProcessor': "com.google.dagger:dagger-android-processor:$versions.dagger",
+        ],
+
+        'logging'    : [
+                'timber'       : "com.jakewharton.timber:timber:$versions.timber",
+                'okhttpLogging': "com.squareup.okhttp3:logging-interceptor:$versions.okhttp",
+        ],
+
+        'test'       : [
+                'junit'        : "junit:junit:$versions.junit",
+                'kotlin'       : "org.jetbrains.kotlin:kotlin-test:$versions.kotlin_plugin",
+                'assertj'      : "org.assertj:assertj-core:$versions.assertj",
+                'mockitoKotlin': "com.nhaarman:mockito-kotlin:$versions.mockito_kotlin",
+                'arch'         : "android.arch.core:core-testing:$versions.arch",
+        ],
+
+        'androidTest': [
+                'espresso'       : "com.android.support.test.espresso:espresso-core:$versions.espresso",
+                'espressoIntents': "com.android.support.test.espresso:espresso-intents:$versions.espresso",
+        ]
+]
+
+ext.excludedDeps = [
+
+        'group' : [
+                'jetbrainsKotlin': 'org.jetbrains.kotlin',
+        ],
+
+        'module': [
+                'kotlinReflect': 'kotlin-reflect',
+        ],
+
+]
